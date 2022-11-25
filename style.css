@@ -42,6 +42,8 @@ ul {
 
 .underheader {
     display: flex;
+    margin: 5rem 0;
+    gap: 2rem;
 }
 
 .underheader .left {
@@ -49,6 +51,7 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     width: 50%;
+    gap: 1rem;
 }
 
 .main-text {
@@ -80,11 +83,14 @@ ul {
     font-weight: 300;
  }
 
+ .containerVideo {
+    width: 50%;
+ }
 .videoWrapper {
     position: relative;
     padding-top: 56.25%; /* 16:9 */
     height: 0;
-    width: 50%;
+    width: 100%;
 }
 
 .videoWrapper iframe {
@@ -92,7 +98,13 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%;
-
+    height: 100%;
 }
  
+button {
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: none;
+}
